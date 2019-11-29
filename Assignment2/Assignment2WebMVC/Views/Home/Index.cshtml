@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Animal Lifeline</h1>
+    <p>Here you can find all the animals we have available to foster.</p>
+    <form asp-controller="Animal" asp-action="Index" method="get">
+        <p> <input type="submit" class="btn btn-primary btn-lg" value="Press for our Animals" /></p>
+    </form>
+</div>

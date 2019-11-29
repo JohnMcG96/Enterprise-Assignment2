@@ -1,0 +1,58 @@
+﻿@model Assignment2Data.Animal.Animals
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Animals</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AniName" class="control-label">Name</label>
+                <input asp-for="AniName" class="form-control" />
+                <span asp-validation-for="AniName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AniType" class="control-label">Species</label>
+                <input asp-for="AniType" class="form-control" />
+                <span asp-validation-for="AniType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AniBreed" class="control-label">Breed</label>
+                <input asp-for="AniBreed" class="form-control" />
+                <span asp-validation-for="AniBreed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AniDoB" class="control-label">Date of Birth</label>
+                <input asp-for="AniDoB" class="form-control" />
+                <span asp-validation-for="AniDoB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AniDesc" class="control-label">Description</label>
+                <input asp-for="AniDesc" class="form-control" />
+                <span asp-validation-for="AniDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AniPic" class="control-label">Picture URL</label>
+                <input asp-for="AniPic" class="form-control" />
+                <span asp-validation-for="AniPic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Assignment2Data.Animal.Animals>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Species
+            </th>
+            <th>
+                Breed
+            </th>
+            <th>
+                Date of Birth
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Picture
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AniName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AniType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AniBreed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AniDoB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AniDesc)
+            </td>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.AniPic)" alt="Picture Not Found" width="200" height="200"/>
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.AniId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.AniId }) |
+                @Html.ActionLink("Delete", "Delete", new {id=item.AniId})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

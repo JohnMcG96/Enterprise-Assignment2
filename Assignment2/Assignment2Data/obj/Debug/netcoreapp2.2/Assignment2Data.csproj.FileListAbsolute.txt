@@ -1,0 +1,8 @@
+C:\Users\John\Documents\Magee\2019-20\Enterprise\Enterprise Assignment 2\Assignment2\Assignment2Data\bin\Debug\netcoreapp2.2\Assignment2Data.deps.json
+C:\Users\John\Documents\Magee\2019-20\Enterprise\Enterprise Assignment 2\Assignment2\Assignment2Data\bin\Debug\netcoreapp2.2\Assignment2Data.dll
+C:\Users\John\Documents\Magee\2019-20\Enterprise\Enterprise Assignment 2\Assignment2\Assignment2Data\bin\Debug\netcoreapp2.2\Assignment2Data.pdb
+C:\Users\John\Documents\Magee\2019-20\Enterprise\Enterprise Assignment 2\Assignment2\Assignment2Data\obj\Debug\netcoreapp2.2\Assignment2Data.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\Magee\2019-20\Enterprise\Enterprise Assignment 2\Assignment2\Assignment2Data\obj\Debug\netcoreapp2.2\Assignment2Data.AssemblyInfoInputs.cache
+C:\Users\John\Documents\Magee\2019-20\Enterprise\Enterprise Assignment 2\Assignment2\Assignment2Data\obj\Debug\netcoreapp2.2\Assignment2Data.AssemblyInfo.cs
+C:\Users\John\Documents\Magee\2019-20\Enterprise\Enterprise Assignment 2\Assignment2\Assignment2Data\obj\Debug\netcoreapp2.2\Assignment2Data.dll
+C:\Users\John\Documents\Magee\2019-20\Enterprise\Enterprise Assignment 2\Assignment2\Assignment2Data\obj\Debug\netcoreapp2.2\Assignment2Data.pdb
